@@ -1,0 +1,71 @@
+/**
+* Style - Component ProfilPage.js
+*/
+
+.header {
+  margin-top: 94px;
+  background-color: rgb(243, 243, 243);
+  padding-left: 60px;
+  padding-right: 60px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style du header */
+
+.profil_Name {
+  float: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.picture_container {
+  width: 100%;
+  height: auto;
+}
+
+
+/* Style de la galerie */
+.gallery_container {
+  margin-top: -430px;
+  box-shadow: 0 4px 8px 0 rgba(9, 0, 0, 0.1), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+  padding: 7px;
+}
+
+.col {
+  padding: 7px;
+}
+
+/* Style images galerie */
+.gallery_img {
+  max-width: 100%;
+}
+/* Style images galerie avec carousel */
+.img_blur {
+  max-width: 100%;
+  filter: blur(4px) grayscale(1);
+}
+
+/* Style du bouton du carousel */
+.button_carousel {
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  border-radius: 6px;
+  color: white;
+  background-color: rgba(0, 63, 47, 0.678);
+  opacity: 60%;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: x-small;
+}
+
+.button_carousel:hover {
+  background-color: rgba(190, 190, 190, 0.829);
+  color: black;
+}

@@ -1,0 +1,18 @@
+
+.avatar img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin:auto;
+  border-radius: 50%;
+}
+
+.avatar {
+  display: flex;
+  flex-direction:row ;
+
+}
+
+.editPP {
+  display: none;
+}
